@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+
+</head>
+<body>
+    <div class="calc">Scientific Calculator Here</div>
+
+    <div class="mainContainer">
+        <div>
+            <input class="input_data" type="text" id="inputfield" placeholder="0">
+        </div>
+        <div>
+            <input class="button" type="button" value="sin" onclick="sin()">
+            <input class="button" type="button" value="cos" onclick="cos()">
+            <input class="button" type="button" value="tan" onclick="tan()">
+            <input class="button" type="button" value="C" onclick="remv()">
+        </div>
+        <div>
+            <input class="button" type="button" value="x^2" onclick="square()">
+            <input class="button" type="button" value="x^3" onclick="cubed()">
+            <input class="button" type="button" value="sqrt2" onclick="sqrt2()">
+            <input class="button" type="button" value="sqrt3" onclick="sqrt3()">
+        </div>
+        <div>
+            <input class="button" type="button" value="1" onclick="number(value)">
+            <input class="button" type="button" value="2" onclick="number(value)">
+            <input class="button" type="button" value="3" onclick="number(value)">
+            <input class="button" type="button" value="BKSP" onclick="BACKSPC()">
+        </div>
+        <div>
+            <input class="button" type="button" value="4" onclick="number(value)">
+            <input class="button" type="button" value="5" onclick="number(value)">
+            <input class="button" type="button" value="6" onclick="number(value)">
+            <input class="button" type="button" value="-" onclick="number(value)">
+        </div>
+        <div>
+            <input class="button" type="button" value="7" onclick="number(value)">
+            <input class="button" type="button" value="8" onclick="number(value)">
+            <input class="button" type="button" value="9" onclick="number(value)">
+            <input class="button" type="button" value="/" onclick="number(value)">
+        </div>
+        <div>
+            <input class="button" type="button" value="." onclick="number(value)">
+            <input class="button" type="button" value="0" onclick="number(value)">
+            <input class="button" type="button" value="*" onclick="number(value)">
+            <input class="button" type="button" value="%" onclick="number(value)">
+        </div>
+        <div>
+            <input class="buttonequal" type="button" value="=" onclick="equal()">
+            <input class="buttonequal" type="button" value="+" onclick="number(value)">
+        </div>
+    </div>
+</body>
+</html>
